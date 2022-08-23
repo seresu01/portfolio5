@@ -40,8 +40,8 @@
   display: block;
   color: white;
   font-size: 3rem;
-  padding: 35% 0;
-  width: 20%;
+  line-height: 25;
+  width: 30%;
   text-align: center;
   box-shadow: 15px 0 10px rgb(150, 150, 150);
 }
@@ -89,7 +89,7 @@
 
 .about_btn {
   font-size: 1.5rem;
-  width: 30%;
+  width: 360px;
   margin: 0 auto;
 }
 
@@ -124,15 +124,15 @@
 
 .company_left img {
   width: 431px;
-  padding-top: 15%;
-  padding-left: 15%;
+  padding-top: 20%;
+  padding-left: 10%;
   margin-bottom: 15%;
 }
 
 .company_left p {
   font-size: 2rem;
   color: white;
-  padding-left: 13%;
+  padding-left: 10%;
   text-align: left;
   position: relative;
   margin-bottom: 10%;
@@ -183,6 +183,7 @@
 .cat_info_wrapper {
   display: flex;
   justify-content:space-between;
+  align-items: center;
   position: relative;
 }
 
@@ -197,22 +198,23 @@
 .cat_info_items1 {
   width: 100%;
   margin: 0 auto;
-  padding-top: 10%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   text-align: center;
 }
 
 .cat_all {
   position: relative;
-  width: 50%;
-  overflow: hidden;
+  height: 60%;
+  width: 40%;
   margin: 3% 0;
 }
 
 .cat_info_items1 li img {
-  width: 350px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   margin-bottom: 20px;
   box-shadow: -10px -10px 10px rgb(119, 119, 119);
 }
@@ -225,21 +227,8 @@
   bottom: 3.5rem;
 }
 
-.cat2 {
-
-}
-
 .cat3 {
   bottom: 3.5rem;
-}
-
-.cat4 {
-}
-
-
-.cat3 img,.cat4  img{
-  height: 263px;
-  width: 350px;
 }
 
 .cat_info_wrapper h2 {
@@ -247,8 +236,8 @@
   display: block;
   color: white;
   font-size: 3rem;
-  padding: 35% 0;
-  width: 20%;
+  line-height: 27;
+  width: 30%;
   text-align: center;
   box-shadow: -15px 0 10px rgb(150, 150, 150);
 }
@@ -258,6 +247,7 @@
   width: 30%;
   margin: 0 auto;
   text-align: center;
+  padding: 3% 0 0 0;
 }
 
 .cat_info_btn a {
@@ -290,6 +280,10 @@
   width: 80%;
   margin: 0 auto;
   background-color: white;
+}
+
+table {
+  border-spacing: 100px;
 }
 
 .news_red {
@@ -329,6 +323,10 @@
   font-size: 1.5rem;
 }
 
+.red_border_left {
+  border-bottom: solid #ff0000 2px;
+}
+
 .news_btn {
   padding-top: 5%;
   font-size: 1.5rem;
@@ -350,6 +348,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .info_wrapper h2 {
@@ -357,66 +356,57 @@
   display: block;
   color: white;
   font-size: 3rem;
-  padding: 35% 0;
-  width: 20%;
+  line-height: 23;
+  width: 30%;
   text-align: center;
   box-shadow: 15px 0 10px rgb(150, 150, 150);
 }
 
-.info_items {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 1200px;
+.info_item {
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-}
-
-.info_items1 {
   text-align: center;
-}
-
-.info1 {
-  background-color: black;
   position: relative;
 }
 
-.info_items1 li img {
-  width: 350px;
-  margin-bottom: 20px;
-  box-shadow: -10px -10px 10px rgb(119, 119, 119);
-  opacity: 0.6;
-}
-
-.info_items1 li p {
+.info_all {
   width: 100%;
-  color: white;
-  font-size: 1.5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.info_items2 {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   text-align: center;
 }
 
-.info_items2 li img {
-  width: 350px;
-  margin-bottom: 20px;
-  box-shadow: -10px -10px 10px rgb(119, 119, 119);
+.info_list {
+  position: relative;
+  height: 290px;
+  width: 40%;
+  margin: 3% 0;
+  background-color: black;
 }
 
+.info_list img {
+  width: 100%;
+  height: 290px;
+  margin-bottom: 20px;
+  box-shadow: 10px -10px 10px rgb(119, 119, 119);
+  opacity: 0.6;
+}
 
+.info_list p {
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 
-
-
-
-
-
-
-
-
+.info2,.info4 {
+  bottom: 3.5rem;
+}
 
 
 
