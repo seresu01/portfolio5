@@ -40,7 +40,7 @@
   display: block;
   color: white;
   font-size: 3rem;
-  line-height: 25;
+  line-height: 22;
   width: 30%;
   text-align: center;
   box-shadow: 15px 0 10px rgb(150, 150, 150);
@@ -207,13 +207,11 @@
 .cat_all {
   position: relative;
   height: 60%;
-  width: 40%;
-  padding: 5%;
+  width: 35%;
 }
 
 .cat_info_items1 li img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
   object-fit: cover;
   margin-bottom: 20px;
   box-shadow: -10px -10px 10px rgb(119, 119, 119);
@@ -221,6 +219,7 @@
 
 .cat_info_items1 li p {
   font-size: 24px;
+  padding-bottom: 8%;
 }
 
 .cat1 {
@@ -236,7 +235,7 @@
   display: block;
   color: white;
   font-size: 3rem;
-  line-height: 25;
+  line-height: 22;
   width: 20%;
   text-align: center;
   box-shadow: -15px 0 10px rgb(150, 150, 150);
@@ -382,7 +381,7 @@
 .info_list {
   position: relative;
   height: 290px;
-  width: 40%;
+  width: 35%;
   margin: 3% 0;
   background-color: black;
 }
@@ -407,6 +406,75 @@
 .info2,.info4 {
   bottom: 3.5rem;
 }
+
+.info2::after {
+  content: "";
+  background-color: rgb(226, 226, 226);
+  padding: 80% 30%;
+  position: absolute;
+  top: -6em;
+  left: 15em;
+  z-index: -1;
+}
+
+.info3::after {
+  content: "";
+  background-color: rgb(226, 226, 226);
+  padding: 15% 40%;
+  position: absolute;
+  top: 23em;
+  left: 7em;
+  z-index: -1;
+}
+
+.bg::before {
+  content: "";
+  position: absolute;
+  height: 100vh;
+  z-index: -2;
+  background: url(../img/クローズ用.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  filter: blur(5px);
+  opacity: 0.8;
+}
+
+.bg {
+  background-color: black;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.close_wrapper {
+  height: 100vh;
+}
+
+.close_txt {
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  position: relative;
+  z-index: -1;
+}
+
+.footer_wrapper {
+  display: flex;
+}
+
+
+
+
+
+
 
 
 
