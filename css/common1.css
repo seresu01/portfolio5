@@ -98,11 +98,12 @@ footer {
 }
 
 .list_all {
-  border-left: white solid 5px;
+  
 }
 
 .list_all li {
-  margin-bottom: 5%;
+  border-left: white solid 5px;
+  margin-bottom: 15%;
 }
 
 .list_all li a {

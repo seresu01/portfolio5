@@ -1,0 +1,104 @@
+
+
+.top_img {
+  padding-top: 8%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  width: 60%;
+}
+
+.top_img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.top_title {
+  width: 50%;
+  float: right;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 3% 0;
+}
+
+.top_title h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.top_title h1 span {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
