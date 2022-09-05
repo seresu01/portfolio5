@@ -2,9 +2,9 @@
 
 .top_img {
   padding-top: 8%;
-  padding-left: 5%;
+  padding-left: 10%;
   padding-bottom: 5%;
-  width: 65%;
+  width: 60%;
 }
 
 .top_img img {
@@ -14,9 +14,10 @@
 
 .top_title {
   width: 50%;
+  margin-right: 2%;
   float: right;
   background: rgba(255, 255, 255, 0.3);
-  padding: 3% 0;
+  padding: 1% 0;
 }
 
 .top_title h1 {
@@ -29,26 +30,123 @@
   display: block;
 }
 
+.about_wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
+.about1::before {
+  content: "";
+  background-color: rgb(226, 226, 226);
+  padding: 18% 5%;
+  position: absolute;
+  top: 10%;
+  left: 7em;
+  z-index: -1;
+}
 
+.about1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
 
+.about1 p {
+  width: 55%;
+  font-size: 2rem;
+  padding-left: 15%;
+  line-height: 2.5;
+}
 
+.about1 p span {
+  display: block;
+}
 
+.about1 img {
+  padding-right: 5%;
+  width: 40%;
+  background-size: contain;
+}
 
+.about2::before {
+  content: "";
+  background-color: rgb(226, 226, 226);
+  padding: 5% 20%;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  z-index: -1;
+}
 
+.about2 {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 5%;
+}
 
+.about2 p {
+  font-size: 1.5rem;
+  text-align: left;
+  display: inline-block;
+}
 
+.about2 p span{
+  display: block;
+}
 
+.company {
+  background: url(../img/黒背景.jpg)no-repeat center;
+  background-size: cover;
+  padding: 5% 0;
+}
 
+.company_wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
+.company_item1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 5%;
+  text-align: center;
+}
 
+.company_item1 img {
+  width: 35%;
+  padding-left: 5%;
+}
 
+.company_item1 p {
+  color: white;
+  font-size: 2rem;
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+}
 
+.company_item2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+iframe {
+  padding-left: 5%;
+  width: 35%;
+}
 
-
-
-
+.company_item2 p {
+  color: white;
+  font-size: 2rem;
+  width: 50%;
+}
 
 
 
