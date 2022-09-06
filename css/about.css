@@ -120,47 +120,126 @@
 
 .company_item1 img {
   width: 35%;
-  padding-left: 5%;
+}
+
+.company_txt {
+  width: 50%;
 }
 
 .company_item1 p {
   color: white;
   font-size: 2rem;
-  width: 50%;
   text-align: left;
   display: inline-block;
 }
 
 .company_item2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  text-align: center;
 }
 
 iframe {
-  padding-left: 5%;
   width: 35%;
 }
 
 .company_item2 p {
   color: white;
   font-size: 2rem;
-  width: 50%;
+  text-align: left;
+  display: inline-block;
 }
 
+.plan {
+  height: 200vh;
+}
 
+.plan_wrapper {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10%;
+}
 
+.plan_wrapper h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 10%;
+}
 
+.plan1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10%;
+}
 
+.plan1 table {
+  border: solid black 1px;
+  width: 45%;
+  line-height: 3.5;
+}
 
+.plan1 th {
+  border: solid black 1px;
+  background-color: rgb(230, 230, 230);
+}
 
+.plan1 td {
+  border: solid black 1px;
+}
 
+.plan2 {
+  text-align: center;
+  font-size: 2rem;
+  
+  margin-bottom: 10%;
+}
 
+.plan2 table {
+  width: 100%;
+  border: solid black 1px;
+  line-height: 2;
+}
 
+.plan2 th {
+  background-color: rgb(230, 230, 230);
+  border: solid black 1px;
+}
 
+.plan2 table tr td br {
+  font-size: 1rem;
+}
 
+.plan3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 5%;
+}
 
+.plan3 table {
+  width: 45%;
+  border: solid black 1px;
+  line-height: 3.5;
+}
 
+.plan3 th {
+  background-color: rgb(230, 230, 230);
+  border: solid black 1px;
+}
+
+.plan3 td {
+  border: solid black 1px;
+}
+
+.plan_wrapper img {
+  width: 10%;
+  float: right;
+}
 
 
 
