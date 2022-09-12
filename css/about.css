@@ -1,4 +1,7 @@
-
+.top_wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 .top_img {
   padding-top: 8%;
@@ -120,6 +123,7 @@
 
 .company_item1 img {
   width: 35%;
+  box-shadow: -10px -10px 3px rgb(255, 255, 255);
 }
 
 .company_txt {
@@ -142,24 +146,21 @@
 
 iframe {
   width: 35%;
+  box-shadow: -10px -10px 3px rgb(255, 255, 255);
 }
 
 .company_item2 p {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 2rem;
   text-align: left;
   display: inline-block;
-}
-
-.plan {
-  height: 200vh;
 }
 
 .plan_wrapper {
   max-width: 1440px;
   width: 90%;
   margin: 0 auto;
-  padding-top: 10%;
+  padding: 10% 0;
 }
 
 .plan_wrapper h2 {
@@ -180,6 +181,7 @@ iframe {
   border: solid black 1px;
   width: 45%;
   line-height: 3.5;
+  box-shadow: 10px 10px 3px rgb(153, 153, 153);
 }
 
 .plan1 th {
@@ -189,6 +191,7 @@ iframe {
 
 .plan1 td {
   border: solid black 1px;
+  width: 50%;
 }
 
 .plan2 {
@@ -202,6 +205,7 @@ iframe {
   width: 100%;
   border: solid black 1px;
   line-height: 2;
+  box-shadow: 10px 10px 3px rgb(153, 153, 153);
 }
 
 .plan2 th {
@@ -225,6 +229,7 @@ iframe {
   width: 45%;
   border: solid black 1px;
   line-height: 3.5;
+  box-shadow: 10px 10px 3px rgb(153, 153, 153);
 }
 
 .plan3 th {
@@ -234,6 +239,7 @@ iframe {
 
 .plan3 td {
   border: solid black 1px;
+  width: 50%;
 }
 
 .plan_wrapper img {
@@ -241,11 +247,30 @@ iframe {
   float: right;
 }
 
+.close {
+  background: url(../img/黒背景.jpg)no-repeat center;
+  background-size: cover;
+  padding: 10% 0;
+}
 
+.close_wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
+.close_wrapper h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 10%;
+}
 
-
-
+.close_wrapper p {
+  color: white;
+  font-size: 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
 
 
 
