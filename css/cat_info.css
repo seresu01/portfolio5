@@ -17,8 +17,7 @@
 
 .top_title {
   width: 50%;
-  margin-right: 2%;
-  float: right;
+  margin: 0 50%;
   background: rgba(255, 255, 255, 0.3);
   padding: 1% 0;
 }
