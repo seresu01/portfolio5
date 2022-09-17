@@ -8,7 +8,7 @@
   background-size: cover;
   opacity: 0.8;
   width: 100vw;
-  padding: 36% 0;
+  height: 100vh;
 }
 
 .top_logo {
@@ -44,37 +44,45 @@
   background-color: black;
   color: white;
   font-size: 3vw;
-  padding: 35% 0;
-  width: 30%;
+  height: 100vh;
+  width: 25%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-shadow: 15px 0 10px rgb(150, 150, 150);
 }
 
 .about_wrapper {
-  width: 100vw;
+  width: 75%;
   text-align: center;
+  padding: 5% 0;
+  position: relative;
 }
 
 .about_item {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .about_item img {
-  width: 50vw;
+  width: 50%;
   object-fit: contain;
   margin-bottom: 5%;
   box-shadow: 10px 10px 10px rgb(150, 150, 150);
 }
 
 .about_txt {
-  text-align: left;
+  width: 90%;
+  margin: 0 auto;
   margin-bottom: 10%;
+  text-align: center;
 }
 
 .about_txt p {
-  font-size: 1.5rem;
-  width: 100%;
+  font-size: 1.5vw;
+  display: inline-block;
+  text-align: left;
 }
 
 .about_txt p span {
@@ -86,14 +94,14 @@
   background-color: rgb(226, 226, 226);
   padding: 4% 20%;
   position: absolute;
-  top: 3em;
+  top: 63%;
   left: 20em;
   z-index: -1;
 }
 
 .about_btn {
-  font-size: 1.5rem;
-  width: 60%;
+  font-size: 1.5vw;
+  width: 35%;
   margin: 0 auto;
 }
 
@@ -108,7 +116,7 @@
 .company {
   background: url(../img/黒背景.jpg) no-repeat center;
   background-size: cover;
-  width: 100%;
+  width: 100vw;
 }
 
 .company_wrapper {
@@ -117,24 +125,22 @@
 }
 
 .company_left {
-  max-width: 720px;
-  width: 50%;
+  width: 50vw;
 }
 
 .left_item {
-  width: 80%;
+  text-align: center;
   margin: 0 auto;
 }
 
 .company_left img {
-  width: 431px;
+  width: 80%;
   padding-top: 20%;
-  padding-left: 10%;
   margin-bottom: 15%;
 }
 
 .company_left p {
-  font-size: 2rem;
+  font-size: 2.5vw;
   color: white;
   padding-left: 10%;
   text-align: left;
@@ -147,31 +153,33 @@
 }
 
 .company_right {
-  max-width: 720px;
-  width: 50%;
+  width: 50vw;
 }
 
-.company_right h2 {
+.right_item {
+  text-align: center;
+}
+
+.right_item h2 {
   background-color: rgb(184, 184, 184);
   display: block;
   color: white;
-  font-size: 3rem;
+  font-size: 3vw;
   padding: 3% 0%;
   width: 100%;
   text-align: center;
   margin-bottom: 17%;
 }
 
-.company_right iframe {
+.map iframe {
   margin-bottom: 15%;
-  width: 90%;
+  width: 80%;
 }
 
 .company_btn {
-  font-size: 1.5rem;
-  width: 30%;
+  font-size: 2vw;
+  width: 30vw;
   margin: 0 auto;
-  width: 360px;
   text-align: center;
   margin-bottom: 15%;
 }
